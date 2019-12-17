@@ -4,7 +4,7 @@ Considered 2 arrays A and B as 2 disks of size 200 and 300 blocks each. But the 
 
 Designed the followind APIs:
 1. CreateDisk(Id, num_blocks)
-..* To create a smaller disk with a unique id within a larger available disk of 500 blocks.
+* To create a smaller disk with a unique id within a larger available disk of 500 blocks.
 2. DeleteDisk(Id)
 3. readFromDisk(Id, block_no)
 4. writeToDisk(Id, block_no, block_info)
