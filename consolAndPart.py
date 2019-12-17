@@ -8,6 +8,7 @@ from common import writeToDisk
 from common import createCheckpoint
 from common import RollBack
 
+
 while True:
     print("Enter Your Choice from the below options:")
     print("1. create Disk")
