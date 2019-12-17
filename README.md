@@ -2,7 +2,7 @@
 
 Considered 2 arrays A and B as 2 disks of size 200 and 300 blocks each. But the user gets a view of single disk of size 500 blocks. <br />
 
-Designed the followind APIs:
+### Designed the followind APIs:
 1. CreateDisk(Id, num_blocks)
 > to create a smaller disk of size **num_blocks** with a unique **Id** within a larger available disk of 500 blocks.
 2. DeleteDisk(Id)
@@ -16,7 +16,7 @@ Designed the followind APIs:
 6. RollBack(Id, state)
 > to roll back **Id** to **state.**
 
-Added replication feature to provide reliability. New APIs introduced:
+### Added replication feature to provide reliability. New APIs introduced:
 
 1. write_with_replicate(Id, block_no, block_info)
 > to write on the disk **Id** and also create a copy in the backup disk. 
